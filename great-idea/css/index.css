@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	max-width: 900px;
+	padding-right: 50px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+nav{
+	display:flex;
+flex-direction: row;
+  justify-content: space-evenly; 
+  
+}
+.nav-menu{
+	float: left;
+	display:flex;
+flex-direction: row;
+  justify-content: space-evenly;
+}
+a{
+	margin: 30px;
+	text-decoration: none;
+}
+.nav-img {
+	margin: 20px -40px 20px 20px;
+	display: flexbox;
+	justify-content: flex-end;
+}
+.header-image {
+	width: 100%;
+}
+.header-content{
+	width:100%;
+	padding: 15px 0px 15px 0px;
+}
+h2{
+	font-size: 2em;
+}
+
+content{
+	display: flex;
+	flex-direction: column;
+}
+	
+.first-row{
+	padding: 0px 0px 10px 0px;
+	display:flex; 
+	flex-direction: row;
+	border: 3px;
+
+}
+.second-row{
+	padding: 0px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	border: 3px;
+}
+.third-row{
+	padding: 0px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	border: 3px;
+}
+
+.first-row-column1{
+	border: 2px black;
+}
+.first-row-column2{
+	border: 2px black;
+}
+.second-row-column1{
+	border: 2px black;
+}
+.second-row-column2{
+	border: 2px black;
+}
+.third-row-column1{
+	border: 2px black;
+}
+.third-row-column2{
+	border: 2px black;
+}
+footer{
+	display: flex;
+	flex-direction: 
+}
+.footer-content{
+	background-color: aqua;
+	display: flex;
+	
+}
+.footer-content-closing{
+	
+}
+.services-info-img{
+	float: right;
+	flex: 50%;
+}
+.copyright{
+	display: flex;
+	align-items: flex-center; 
+}
