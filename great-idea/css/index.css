@@ -149,6 +149,7 @@ content{
 	border: 1px solid black;
 }
 .mantra{
+	padding: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -181,13 +182,44 @@ hr {
 	height: 1px;
   }
 
-  content {
+  .main-content {
+	  padding: 20px 20px 20px 20px;
 	  display: flex;
-	  
+	  flex-direction: column;
   }
-footer{
+  .main-content1 {
+	  padding: 20px 0px 20px 0px ;
+	  display: flex;
+	  flex-direction: row;
+  }
+  .main-content1 .features{
+	  padding: 0px 20px 0px 0px;
+  } 
+  .main-content2 {
+	padding: 20px 0px 20px 0px;
 	display: flex;
-	flex-direction: 
+	flex-direction: row;
+}
+address{
+	padding: 20px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.home {
+	padding: 10px 0px 10px 0px;
+}
+.phone {
+	padding: 10px 0px 10px 0px;
+}
+.mail {
+	padding: 10px 0px 10px 0px;
+}
+
+footer{
+	padding: 20px 20px 20px 20px;
+	display: flex;
+	justify-content: center;
+	
 }
 .footer-content{
 	background-color: aqua;
