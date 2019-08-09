@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	max-width: 900px;
+	padding-right: 50px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+nav{
+	display:flex;
+flex-direction: row;
+  justify-content: space-evenly; 
+  
+}
+.nav-menu{
+	float: left;
+	display:flex;
+flex-direction: row;
+  justify-content: space-evenly;
+}
+a{
+	margin: 30px;
+	text-decoration: none;
+}
+.nav-img {
+	margin: 20px -40px 20px 20px;
+	display: flexbox;
+	justify-content: flex-end;
+}
+.header-image {
+	width: 100%;
+}
+.header-content{
+	width:100%;
+	padding: 15px 0px 15px 0px;
+}
+h2{
+	font-size: 2em;
+}
+
+content{
+	display: flex;
+	flex-direction: column;
+}
+	
+.first-row{
+	padding: 0px 0px 10px 0px;
+	display:flex; 
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.second-row{
+	padding: 0px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	
+}
+.third-row{
+	padding: 0px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	
+}
+
+.first-row-column1{
+	border: 1px solid black;
+	padding-right: 10px;
+}
+.first-row-column2{
+	border: 1px solid black;
+	padding-left: 10px;
+}
+.second-row-column1{
+	border: 1px solid black;
+}
+.second-row-column2{
+	border: 1px solid black;
+}
+.third-row-column1{
+	border: 1px solid black;
+}
+.third-row-column2{
+	border: 1px solid black;
+}
+.mantra{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mantra-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.mantra-left h1 {
+	font-size: 4em;
+}
+.mantra-left h1 .target1{
+	text-align: center;
+}
+.mantra-left h1 .target2{
+	text-align: center;
+}
+button {
+	padding: 5px;
+}
+.mantra-right{
+}
+hr {
+	border: 0;
+	clear:both;
+	display:block;
+	width: 100%;               
+	background-color: black;
+	height: 1px;
+  }
+
+  content {
+	  display: flex;
+	  
+  }
+footer{
+	display: flex;
+	flex-direction: 
+}
+.footer-content{
+	background-color: aqua;
+	display: flex;
+	
+}
+.footer-content-closing{
+	
+}
+.services-info-img{
+	float: right;
+	flex: 50%;
+}
+.copyright{
+	display: flex;
+	align-items: flex-center; 
+}
