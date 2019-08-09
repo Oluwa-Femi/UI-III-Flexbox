@@ -64,3 +64,180 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	max-width: 900px;
+	padding-right: 50px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+nav{
+	display:flex;
+flex-direction: row;
+  justify-content: space-evenly; 
+  
+}
+.nav-menu{
+	float: left;
+	display:flex;
+flex-direction: row;
+  justify-content: space-evenly;
+}
+a{
+	margin: 30px;
+	text-decoration: none;
+}
+.nav-img {
+	margin: 20px -40px 20px 20px;
+	display: flexbox;
+	justify-content: flex-end;
+}
+.header-image {
+	width: 100%;
+}
+.header-content{
+	width:100%;
+	padding: 15px 0px 15px 0px;
+}
+h2{
+	font-size: 2em;
+}
+
+content{
+	display: flex;
+	flex-direction: column;
+}
+	
+.first-row{
+	padding: 0px 0px 10px 0px;
+	display:flex; 
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.second-row{
+	padding: 0px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	
+}
+.third-row{
+	padding: 0px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+	
+}
+
+.first-row-column1{
+	border: 1px solid black;
+	padding-right: 10px;
+}
+.first-row-column2{
+	border: 1px solid black;
+	padding-left: 10px;
+}
+.second-row-column1{
+	border: 1px solid black;
+}
+.second-row-column2{
+	border: 1px solid black;
+}
+.third-row-column1{
+	border: 1px solid black;
+}
+.third-row-column2{
+	border: 1px solid black;
+}
+.mantra{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mantra-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.mantra-left h1 {
+	font-size: 4em;
+}
+.mantra-left h1 .target1{
+	text-align: center;
+}
+.mantra-left h1 .target2{
+	text-align: center;
+}
+button {
+	padding: 5px;
+}
+.mantra-right{
+}
+hr {
+	border: 0;
+	clear:both;
+	display:block;
+	width: 100%;               
+	background-color: black;
+	height: 1px;
+  }
+
+  .main-content {
+	  padding: 20px 20px 20px 20px;
+	  display: flex;
+	  flex-direction: column;
+  }
+  .main-content1 {
+	  padding: 20px 0px 20px 0px ;
+	  display: flex;
+	  flex-direction: row;
+  }
+  .main-content1 .features{
+	  padding: 0px 20px 0px 0px;
+  } 
+  .main-content2 {
+	padding: 20px 0px 20px 0px;
+	display: flex;
+	flex-direction: row;
+}
+address{
+	padding: 20px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.home {
+	padding: 10px 0px 10px 0px;
+}
+.phone {
+	padding: 10px 0px 10px 0px;
+}
+.mail {
+	padding: 10px 0px 10px 0px;
+}
+
+.foot-note{
+	padding: 20px 20px 20px 20px;
+	display: flex;
+	justify-content: center;
+	
+}
+footer{
+
+}
+.footer-content{
+	display: flex;
+	
+}
+.footer-content-closing{
+	padding: 20px 0px 20px 0px;;
+	display: flex;
+	flex-direction: row;
+}
+footer-heading{
+	display: flex;
+	flex-direction: column;
+}
+.services-info-img{
+	float: right;
+	flex: 50%;
+}
