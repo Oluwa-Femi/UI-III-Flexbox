@@ -215,25 +215,29 @@ address{
 	padding: 10px 0px 10px 0px;
 }
 
-footer{
+.foot-note{
 	padding: 20px 20px 20px 20px;
 	display: flex;
 	justify-content: center;
 	
 }
+footer{
+
+}
 .footer-content{
-	background-color: aqua;
 	display: flex;
 	
 }
 .footer-content-closing{
-	
+	padding: 20px 0px 20px 0px;;
+	display: flex;
+	flex-direction: row;
+}
+footer-heading{
+	display: flex;
+	flex-direction: column;
 }
 .services-info-img{
 	float: right;
 	flex: 50%;
-}
-.copyright{
-	display: flex;
-	align-items: flex-center; 
 }
